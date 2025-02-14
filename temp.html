@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    
+    <div>
+        <img src="temp logo.jpg" alt="" >
+        <h1>Temperature conversion:</h1>
+        <input type="number" id="textBox" value="0"><br>
+
+        <input type="radio" id="to_fahrenheit" name="unit">
+        <label for="to_Fahrenheit">Celsius ➡ Fahrenheit</label><br>
+
+        <input type="radio" id="to_Celsius" name="unit">
+        <label for="to_Celsius">Fahrenheit ➡ Celsius</label><br>
+
+        <input type="radio" id="to_Kelvin" name="unit">
+        <label for="to_Kelvin">Celcius ➡ Kelvin</label><br>
+
+        <input type="radio" id="from_farhen_to_kelvin" name="unit">
+        <label for="from_farhen_to_kelvin">Fahrenheit ➡ Kelvin</label><br>
+
+        <input type="radio" id="from_kelvin_to_celcius" name="unit">
+        <label for="from_kelvin_to_celcius">Kelvin ➡ Celcius</label><br>
+
+        <input type="radio" id="from_kelvin_to_fahernheit" name="unit">
+        <label for="from_kelvin_to_fahernheit">Kelvin ➡ Fahernheit</label><br>
+
+
+
+
+        <button type="button" onclick="convert()">submit</button>
+        <p id="result"></p>
+    </div>
+    
+    <script src="temp.js"></script>
+</body>
+</html>
